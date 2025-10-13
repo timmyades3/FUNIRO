@@ -553,7 +553,7 @@ li a {
   SETUP section
 ================  */
 
-/* .setup-container{
+.setup-container{
     margin-top: 74px;
 }
 
@@ -617,125 +617,8 @@ li a {
 .setup-bento img:nth-child(9){
     margin-top:10px ;
     margin-left: -115px;
-}   */
+}  
 
-
-.setup-container {
-  margin-top: 74px;
-}
-
-.setup-heading {
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 150%;
-  color: #616161;
-  text-align: center;
-  margin-bottom: 8px;
-}
-
-.setup-subheading {
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 120%;
-  text-align: center;
-}
-
-.setup-bento {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  grid-template-areas:
-    "box-1 box-2 box-3 box-4 box-5"
-    "box-6 box-7 box-3 box-8 box-9";
-  margin-left: 40px;
-  gap: 10px; /* Adds space between images */
-}
-
-/* Original image placements */
-.setup-bento img {
-  width: 100%;
-  max-width: 220px;
-  height: auto;
-  transition: 0.3s ease;
-}
-
-.setup-bento img:nth-child(1) {
-  margin-top: 10px;
-}
-.setup-bento img:nth-child(2) {
-  margin-top: 80px;
-  margin-left: -200px;
-}
-.setup-bento img:nth-child(3) {
-  margin-top: 150px;
-  margin-left: -30px;
-}
-.setup-bento img:nth-child(4) {
-  margin-top: 95px;
-  margin-left: -15px;
-}
-.setup-bento img:nth-child(5) {
-  margin-top: 10px;
-  margin-left: -5px;
-}
-.setup-bento img:nth-child(6) {
-  margin-top: -40px;
-}
-.setup-bento img:nth-child(7) {
-  margin-top: -40px;
-  margin-left: -94px;
-}
-.setup-bento img:nth-child(8) {
-  margin-top: 10px;
-  margin-left: -15px;
-}
-.setup-bento img:nth-child(9) {
-  margin-top: 10px;
-  margin-left: -115px;
-}
-
-/* ---------- Responsive Adjustments ---------- */
-
-/* Medium screens (tablets) */
-@media (max-width: 992px) {
-  .setup-bento {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-areas:
-      "box-1 box-2 box-3"
-      "box-4 box-5 box-6"
-      "box-7 box-8 box-9";
-    margin-left: 0;
-    gap: 15px;
-  }
-
-  .setup-bento img {
-    max-width: 160px;
-  }
-}
-
-/* Small screens (mobile) */
-@media (max-width: 600px) {
-  .setup-subheading {
-    font-size: 28px;
-  }
-
-  .setup-bento {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas:
-      "box-1 box-2"
-      "box-3 box-4"
-      "box-5 box-6"
-      "box-7 box-8"
-      "box-9 box-9";
-    gap: 12px;
-    margin-left: 0;
-  }
-
-  .setup-bento img {
-    max-width: 120px;
-    margin: 0 auto;
-  }
-}
 
 
 
