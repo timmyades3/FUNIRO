@@ -23,6 +23,7 @@
 <body>
     <!-- NAVIGATION BAR -->
     <section class="header container">
+       
         <div class="navbar">
             <div class="navleft">
                 <a href="" class="brand">
@@ -32,7 +33,13 @@
             </div>
             <div class="navmid">
                 <nav>
-                    <ul>
+                    <input type="checkbox" name="" id="checked">
+                    <label for="checked" id="toggle">
+                    <i class="fa fa-bars" id="bars"></i>
+                    <i class="fas fa-times" id="remove" class="CloseButton"></i>
+                    </label>
+                    <ul class="sidebar">                    
+                        <!-- <imgclass src="img/MeubelHouse_Logos-05.png" alt="" class="logo"> -->
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Shop</a></li>
                         <li><a href="#">About</a></li>
@@ -47,6 +54,7 @@
                 <a href="" class="icon"><img src="img/ant-design_shopping-cart-outlined.png" alt=""></i></a>
             </div>
         </div>
+        
     </section>
 
     <!-- MAIN SECTION -->
@@ -246,7 +254,7 @@
                     </div>
                 </div>
             </div>
-            <div class="product-card product-sales product-new">
+            <div id="product-5" class="product-card product-sales product-new">
                 <div class="product-card-hover">
                     <div class="product-card-hover-body">
                         <button class="add-btn">
@@ -282,7 +290,7 @@
                     </div>
                 </div>
             </div>
-            <div class="product-card product-sales product-new">
+            <div id="product-6" class="product-card product-sales product-new">
                 <div class="product-card-hover">
                     <div class="product-card-hover-body">
                         <button class="add-btn">
@@ -321,7 +329,7 @@
                     </div>
                 </div>
             </div>
-            <div class="product-card product-sales product-new">
+            <div id="product-7" class="product-card product-sales product-new">
                 <div class="product-card-hover">
                     <div class="product-card-hover-body">
                         <button class="add-btn">
@@ -361,7 +369,7 @@
                     </div>
                 </div>
             </div>
-            <div class="product-card product-sales product-new">
+            <div id="product-8" class="product-card product-sales product-new .product-8">
                 <div class="product-card-hover">
                     <div class="product-card-hover-body">
                         <button class="add-btn">
@@ -486,7 +494,8 @@
         <h1 class="setup-subheading">
             #FuniroFurniture
         </h1>
-        <div class="setup-bento">
+        <div class="setup-gallery">
+            <div class="setup-bento">
             <img style="grid-area:box-1 ;" src="img/Rectangle 36.png" alt="" srcset="">
             <img style="grid-area:box-2 ;" src="img/Rectangle 38.png" alt="" srcset="">
             <img style="grid-area:box-3 ;" src="img/Rectangle 40.png" alt="" srcset="">
@@ -497,12 +506,15 @@
             <img style="grid-area:box-8 ;" src="img/Rectangle 41.png" alt="" srcset="">
             <img style="grid-area:box-9 ;" src="img/Rectangle 44.png" alt="" srcset="">
         </div>
+        </div>
+        
 
     </section>
     <!-- FOOTER-SECTION -->
     <section class="footer footer-container">
         <div class="company-info">
-            <div class="company-address">
+            
+            <div class="comapny company-address">
                 <div class="footer-name">Funiro.</div>
                 <p class="footer-address">400 University Drive Suite 200 Coral
                     <br>
@@ -511,7 +523,7 @@
                     FL 33134 USA
                 </p>
             </div>
-            <div class="company-link">
+            <div class="company company-link">
                 <p class="footer-links-head">link</p>
                 <a class="footer-links" href="#">
                     <p>Home</p>
@@ -526,7 +538,7 @@
                     <p>Contact</p>
                 </a>
             </div>
-            <div class="help">
+            <div class="company help">
                 <p class="footer-help-head">Help</p>
                 <a class="footer-links" href="#">
                     <p>payment Options</p>
@@ -538,7 +550,7 @@
                     <p>Privacy</p>
                 </a>
             </div>
-            <div class="newsletter">
+            <div class=" company newsletter">
                 <p class="footer-news-head">Newsletter</p>
                 <input class="" type="email" name="" id="user" placeholder="Enter Your Email Address">
                 <button class="sub">SUBSCRIBE</button>
@@ -550,5 +562,7 @@
     </section>
 
     <script src="script.js"></script>
+    <script src="slider.js"></script>
+    <script src="nav.js"></script>
 
 </html>
