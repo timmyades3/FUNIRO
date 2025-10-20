@@ -574,6 +574,7 @@ nav label #remove {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .active-disc-btn {
@@ -581,6 +582,7 @@ nav label #remove {
     padding: 5.5px 5.5px;
     border: none;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .disc-btn {
@@ -588,6 +590,7 @@ nav label #remove {
     border: none;
     border-radius: 10px;
     background-color: #D8D8D8;
+    cursor: pointer;
 }
 
 
